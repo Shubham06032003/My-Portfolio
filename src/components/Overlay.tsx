@@ -44,9 +44,9 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
             {/* 25% Left */}
             <motion.div
                 style={{ opacity: opacity2, x: x2 }}
-                className="absolute left-8 md:left-24 max-w-2xl"
+                className="absolute w-full px-4 md:px-0 md:w-auto md:left-24 max-w-2xl text-center md:text-left"
             >
-                <h2 className="text-4xl md:text-6xl font-space font-bold text-emerald-400 leading-tight">
+                <h2 className="text-3xl md:text-6xl font-space font-bold text-emerald-400 leading-tight">
                     I build AI-powered backends and intelligent systems.
                 </h2>
             </motion.div>
@@ -54,12 +54,12 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
             {/* 50% Right */}
             <motion.div
                 style={{ opacity: opacity3, x: x3 }}
-                className="absolute right-8 md:right-24 max-w-2xl text-right"
+                className="absolute w-full px-4 md:px-0 md:w-auto md:right-24 max-w-2xl text-center md:text-right"
             >
-                <h2 className="text-4xl md:text-6xl font-space font-bold text-cyan-400 leading-tight">
+                <h2 className="text-3xl md:text-6xl font-space font-bold text-cyan-400 leading-tight">
                     From RAG pipelines to ML models.
                 </h2>
-                <p className="text-xl md:text-3xl text-foreground font-sans mt-4">
+                <p className="text-lg md:text-3xl text-foreground font-sans mt-4">
                     Bridging data and product.
                 </p>
             </motion.div>
@@ -67,12 +67,12 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
             {/* 75% Center */}
             <motion.div
                 style={{ opacity: opacity4, y: y4 }}
-                className="absolute flex flex-col items-center text-center max-w-3xl"
+                className="absolute w-full px-4 md:px-0 flex flex-col items-center text-center max-w-3xl"
             >
-                <h2 className="text-4xl md:text-6xl font-space font-bold text-foreground mb-6">
+                <h2 className="text-3xl md:text-6xl font-space font-bold text-foreground mb-4 md:mb-6">
                     Certified. Curious.
                 </h2>
-                <h3 className="text-3xl md:text-5xl font-sans text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
+                <h3 className="text-2xl md:text-5xl font-sans text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
                     Currently exploring Agentic AI.
                 </h3>
             </motion.div>
