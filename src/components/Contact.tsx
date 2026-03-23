@@ -2,7 +2,7 @@ import { Mail, Phone, ExternalLink } from "lucide-react";
 
 export default function Contact() {
     return (
-        <footer className="relative w-full bg-[#030305] py-24 px-6 md:px-12 lg:px-24 z-10 overflow-hidden border-t border-white/[0.05]">
+        <footer id="contact" className="relative w-full bg-[#030305] py-24 px-6 md:px-12 lg:px-24 z-10 overflow-hidden border-t border-white/[0.05]">
             {/* Footer Noise Overlay */}
             <div className="absolute inset-0 z-0 opacity-[0.03] mix-blend-overlay pointer-events-none"
                 style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E\")", backgroundRepeat: 'repeat' }} />
@@ -19,7 +19,7 @@ export default function Contact() {
                 </h2>
 
                 <p className="text-xl text-gray-400 font-sans max-w-2xl mb-12 leading-relaxed">
-                    Open for roles in AI, Machine Learning, and Backend Development.
+                    Open to job opportunities in AI/ML and backend development.
                     If you have a high-impact project or a full-time opportunity, my inbox is open.
                 </p>
 
@@ -42,11 +42,11 @@ export default function Contact() {
                         </div>
                         shub.p.2003@gmail.com
                     </a>
-                    <a href="tel:+919660155271" className="flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors font-sans group">
+                    <a href="https://github.com/Shubham06032003" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-emerald-400 transition-colors font-sans group">
                         <div className="p-2 rounded-full bg-white/5 group-hover:bg-emerald-500/10 transition-colors">
-                            <Phone size={18} />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
                         </div>
-                        +91-9660155271
+                        GitHub
                     </a>
                     <a href="https://linkedin.com/in/shubham-panwar-sp" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-gray-400 hover:text-blue-400 transition-colors font-sans group">
                         <div className="p-2 rounded-full bg-white/5 group-hover:bg-blue-500/10 transition-colors">
